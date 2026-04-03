@@ -1,11 +1,7 @@
 package simulation.entities;
 
+import simulation.core.Coordinate;
+
 public abstract class Entity {
-    private Coordinate coordinate;
-
-    public Entity(Coordinate coordinate) {
-        this.coordinate = coordinate;
-    }
-
     public abstract String getSymbol();
 }

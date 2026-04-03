@@ -1,10 +1,8 @@
 package simulation.entities;
 
-public class Tree extends Entity {
+import simulation.core.Coordinate;
 
-    public Tree(Coordinate coordinate) {
-        super(coordinate);
-    }
+public class Tree extends Entity {
 
     @Override
     public String getSymbol() {

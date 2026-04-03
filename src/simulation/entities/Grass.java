@@ -1,10 +1,8 @@
 package simulation.entities;
 
-public class Grass extends Entity {
+import simulation.core.Coordinate;
 
-    public Grass(Coordinate coordinate) {
-        super(coordinate);
-    }
+public class Grass extends Entity {
 
     @Override
     public String getSymbol() {
