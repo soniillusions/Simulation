@@ -12,4 +12,8 @@ public class Predator extends Creature {
     public String getSymbol() {
         return "\uD83D\uDC3A";
     }
+
+    public int getDamage() {
+        return damage;
+    }
 }
